@@ -7,7 +7,7 @@ function HomeComponent() {
   return (
     <div>
       <Navbar/>
-       <main className="bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white px-6">
+       <main className="pt-9 bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white px-6">
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl">
         
