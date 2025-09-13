@@ -1,15 +1,15 @@
 import React from 'react'
-import About from '../components/About'
+import Skills from '../components/Skills'
 import Navbar from '../components/Navbar'
 
-function index() {
+function page() {
   return (
     <div>
       <Navbar/>
 
-      <About/>
+      <Skills/>
     </div>
   )
 }
 
-export default index
+export default page
