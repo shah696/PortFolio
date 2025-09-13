@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 export default function Skills() {
@@ -76,11 +77,14 @@ export default function Skills() {
 
     {/* Image Section (Right) */}
     <div className="flex  justify-center">
-      <img
-        src="/icons/profile3.jpg"
-        alt="My Profile"
-        className="rounded-2xl shadow-lg border-4 border-yellow-400 w-72 h-72 object-cover"
-      />
+    
+<Image
+  src="/icons/profile3.jpg"
+  alt="My Profile"
+  width={300}   // pixel width
+  height={300}  // pixel height
+  className="rounded-2xl shadow-lg border-4 border-yellow-400 object-cover"
+/>
     </div>
   </div>
 </main>
