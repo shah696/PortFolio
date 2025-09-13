@@ -30,6 +30,9 @@ function Navbar() {
           <Link href="/skills" className={linkClasses("/skills")}>
             Skills
           </Link>
+           <Link href="/projects" className={linkClasses("/contact")}>
+            Projects
+          </Link>
           <Link href="/contact" className={linkClasses("/contact")}>
             Contact
           </Link>
