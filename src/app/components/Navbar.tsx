@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
@@ -20,19 +21,19 @@ function Navbar() {
 
         {/* Navigation Links */}
         <nav className="flex space-x-8">
-          <a
+          <Link
             href="/"
             className={linkClasses("/")}
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
             onClick={() => route.push("/about")}
             className={linkClasses("/about")}
           >
             About
-          </a>
+          </Link>
           <a
             href="/skills"
             onClick={() => route.push("/skills")}
@@ -40,13 +41,13 @@ function Navbar() {
           >
             Skills
           </a>
-          <a
+          <Link
             href="/contact"
             onClick={() => route.push("/contact")}
            className={linkClasses("/contact")}
           >
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
