@@ -13,19 +13,13 @@ function Navbar() {
       : "text-white font-medium hover:text-yellow-300 transition";
 
   return (
-    <header className="bg-green-500 shadow-md">
-      <div className="max-w-7xl mx-auto px-8 py-1 flex items-center justify-between">
+    <header className="bg-green-600 shadow-md">
+      <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         
         {/* Left side (Logo + DP) */}
         <div className="flex items-center gap-3 cursor-pointer">
           {/* DP image */}
-          <Image
-            src="/icons/profile1.jpg"  
-            alt="My DP"
-            width={50}
-            height={50}
-            className="rounded-full border-2 border-white"
-          />
+          
           <span className="text-white font-extrabold text-xl tracking-wide">
             Portfolio
           </span>
