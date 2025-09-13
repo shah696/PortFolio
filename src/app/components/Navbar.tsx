@@ -1,7 +1,7 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import React from "react";
 
 function Navbar() {
   const route = useRouter();
@@ -34,13 +34,13 @@ function Navbar() {
           >
             About
           </Link>
-          <a
+          <Link
             href="/skills"
             onClick={() => route.push("/skills")}
            className={linkClasses("/skills")}
           >
             Skills
-          </a>
+          </Link>
           <Link
             href="/contact"
             onClick={() => route.push("/contact")}
