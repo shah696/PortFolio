@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -33,12 +32,13 @@ function Navbar() {
           <Link href="/skills" className={linkClasses("/skills")}>
             Skills
           </Link>
+          <Link href="/projects" className={linkClasses("/projects")}>
+            MyProjects
+          </Link>
           <Link href="/contact" className={linkClasses("/contact")}>
             Contact
           </Link>
-           <Link href="/projects" className={linkClasses("/contact")}>
-            MyProjects
-          </Link>
+           
         </nav>
       </div>
     </header>
