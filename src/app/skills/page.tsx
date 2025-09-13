@@ -8,6 +8,7 @@ function page() {
       <Navbar/>
 
       <Skills/>
+      
     </div>
   )
 }

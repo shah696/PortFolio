@@ -14,7 +14,7 @@ function HomeComponent() {
         {/* Left Side (Text) */}
         <div className="flex-1 space-y-5">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-            Hi, I'm <span className="text-yellow-400">Shah Hussain</span>
+         <p>I&apos;m a developer</p> <span className="text-yellow-400">Shah Hussain</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-300">
             Experienced Full Stack Developer
