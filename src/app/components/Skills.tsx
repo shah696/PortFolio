@@ -7,7 +7,7 @@ export default function Skills() {
     "HTML", "CSS", "JavaScript", "React.js", "Bootstrap", "Tailwind CSS"
   ];
   const backend = [
-    "Node.js", "Express.js", "Next.js", "Nest.js"
+    "Node.js", "Express.js", "Next.js", "NestJS"
   ];
   const database = [
     "MongoDB", "PostgreSQL", "Prisma ORM", "GraphQL"

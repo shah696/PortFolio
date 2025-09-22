@@ -24,7 +24,7 @@ const projectsData = [
       "Restaurant App with Product Lists Using React with Routing combination.",
       "Restaurant Bill Creating App and set Dynamic products and also get print of the bill"
     ],
-    skills: ["HTML/CSS", "JavaScript", "React.js", "Bootstrap", "TailwindCSS", "Redux"]
+    skills: ["HTML/CSS", "JavaScript", "React.js","Next.js", "Bootstrap", "TailwindCSS", "Redux"]
   }
 ];
 
