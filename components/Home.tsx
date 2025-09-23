@@ -49,6 +49,7 @@ function HomeComponent() {
             width={300}
             height={300}
             className="rounded-full border-4 border-yellow-400 shadow-lg"
+              priority
           />
         </div>
       </div>
