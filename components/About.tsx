@@ -11,7 +11,7 @@ export default function About() {
         {/* Left side - Profile Image */}
         <div className="flex-1 flex justify-center">
           <Image
-            src="/icons/profile4.jpg"   // ✅ public/icons/profile.jpeg
+            src="/icons/profile4.jpg"  
             alt="Profile"
             width={280}
             height={280}

@@ -11,7 +11,7 @@ function HomeComponent() {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl">
         
-        {/* Left Side (Text) */}
+        {/* Left Side  */}
         <div className="flex-1 space-y-5">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
          <p>I&apos;m a developer</p> <span className="text-yellow-400">Shah Hussain</span>
@@ -42,10 +42,9 @@ function HomeComponent() {
           </div>
         </div>
 
-        {/* Right Side (Profile Image / DP) */}
         <div className="flex-1 flex justify-center">
           <Image
-            src="/icons/profile2.jpg" // ✅ image rakho public/icons/profile.jpeg
+            src="/icons/profile2.jpg" 
             alt="Profile Picture"
             width={300}
             height={300}
