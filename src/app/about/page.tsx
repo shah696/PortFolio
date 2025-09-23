@@ -1,6 +1,6 @@
 import React from 'react'
-import About from '../components/About'
-import Navbar from '../components/Navbar'
+import Navbar from '../../../components/Navbar'
+import About from '../../../components/About'
 
 function index() {
   return (
