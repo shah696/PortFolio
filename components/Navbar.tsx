@@ -34,9 +34,15 @@ function Navbar() {
           <Link href="/projects" className={linkClasses("/projects")}>
             Projects
           </Link>
+          <Link href="/resume" className={linkClasses("/resume")}>
+            Resume
+          </Link><Link href="/hire-me" className={linkClasses("/hire-me")}>
+            hire-me
+          </Link>
           <Link href="/contact" className={linkClasses("/contact")}>
             Contact
           </Link>
+          
            
         </nav>
       </div>

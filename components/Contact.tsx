@@ -31,33 +31,48 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 group cursor-pointer">
-                 <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 text-purple-400">
+              <Link 
+                href="https://wa.me/923421774407"
+                target="_blank"
+                className="flex items-center gap-4 group cursor-pointer"
+              >
+                 <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 text-green-400">
                   📞
                 </div>
                 <div>
-                   <p className="text-slate-400 text-sm font-medium">Phone</p>
-                   <p className="text-lg font-semibold text-white group-hover:text-purple-300 transition-colors">0342 1774407</p>
+                   <p className="text-slate-400 text-sm font-medium">WhatsApp</p>
+                   <p className="text-lg font-semibold text-white group-hover:text-green-400 transition-colors">0342 1774407</p>
                 </div>
-              </div>
+              </Link>
 
-              <div className="flex items-center gap-4 group cursor-pointer">
+              <Link 
+                href="mailto:shonees51@gmail.com"
+                className="flex items-center gap-4 group cursor-pointer"
+              >
                  <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 text-blue-400">
                   📧
                 </div>
                 <div>
                    <p className="text-slate-400 text-sm font-medium">Email</p>
-                   <Link
-                      onClick={() =>
-                        window.open("https://mail.google.com", "_blank")
-                      }
-                      href="mailto:shonees51@gmail.com"
-                      className="text-lg font-semibold text-white hover:text-blue-300 transition-colors"
-                   >
-                      shonees51@gmail.com
-                   </Link>
+                   <p className="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors">shonees51@gmail.com</p>
                 </div>
-              </div>
+              </Link>
+
+              <Link 
+                href="https://www.linkedin.com/in/shah-hussain-791369326/" 
+                target="_blank"
+                className="flex items-center gap-4 group cursor-pointer"
+              >
+                 <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 text-blue-500">
+                  💼
+                </div>
+                <div>
+                   <p className="text-slate-400 text-sm font-medium">LinkedIn</p>
+                   <p className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">shah-hussain-791369326</p>
+                </div>
+              </Link>
+
+            
             </div>
 
             {/* Right side - Decoration / Form placeholder */}
