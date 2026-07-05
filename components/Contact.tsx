@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <main className="min-h-screen text-slate-200 px-8 py-24 flex items-center">
-      <div className="max-w-4xl mx-auto w-full">
+    <main className="min-h-screen text-slate-200 py-24 flex items-center">
+      <div className="max-w-[1400px] mx-auto w-full px-6">
         {/* Heading */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-cyan-400 to-purple-600 mb-6">

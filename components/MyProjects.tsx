@@ -3,35 +3,76 @@ import React from "react";
 
 const projectsData = [
   {
-    role: "Full Stack Developer",
-    period: "2023 - Present",
+    role: "Frontend Developer — Professional Experience",
+    period: "1+ Year",
     description: [
-      "Zoo (US-based App) - Backend CRUD Operations: Worked on backend development for a US-based Zoo management system. Created full CRUD (Create, Read, Update, Delete) APIs to manage animals, staff, and enclosure data using RESTful standards and database integration.",
-      "Created a Facebook-like application with features such as newsfeed, user posts, and profile pages."
+      "Built responsive, production-ready user interfaces for multiple live projects using React.js, Next.js, TypeScript, and Tailwind CSS.",
+      "Integrated REST APIs with frontend applications and managed application state across complex UI flows.",
+      "Implemented technical SEO for Next.js websites — sitemap generation, metadata optimization, canonical handling, robots configuration, and page indexing improvements.",
+      "Optimized website performance, fixed bugs, and improved existing features in production environments.",
+      "Delivered cross-browser compatible, mobile-responsive interfaces with clean, reusable, and scalable component architecture."
     ],
     skills: [
-      "HTML/CSS", "JavaScript", "React.js", "Bootstrap", "TailwindCSS",
-      "Redux", "Next.js", "Express.js", "Node.js", "Mongoose",
-      "REST APIs", "Nest.js", "GraphQL", "MongoDB", "PostgreSQL"
+      "React.js", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs",
+      "Redux", "Technical SEO", "JavaScript (ES6+)"
     ]
   },
   {
-    role: "Frontend Developer",
-    period: "2021 - Present",
+    role: "Poultry Baba",
+    period: "Production Platform",
     description: [
-      "Developed a clean and user-friendly To-Do application allowing users to add, update, and delete tasks. Focused on intuitive UI and smooth state management.",
-      "Developed a standard calculator using HTML, CSS, and JavaScript with standard arithmetic operations and a clean, user-friendly interface.",
-      "Restaurant App with Product Lists Using React with Routing combination.",
-      "Restaurant Bill Creating App and set Dynamic products and also get print of the bill"
+      "Worked as the Frontend Developer on a large production platform, developing new features and integrating backend APIs.",
+      "Implemented technical SEO improvements — created and optimized sitemap generation, improved page indexing, and managed metadata and canonical tags.",
+      "Fixed frontend bugs and improved overall performance and user experience across the platform."
     ],
-    skills: ["HTML/CSS", "JavaScript", "React.js","Next.js", "Bootstrap", "TailwindCSS", "Redux"]
+    skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "SEO", "JavaScript"]
+  },
+  {
+    role: "UpInvest Website",
+    period: "Web Development",
+    description: [
+      "Enhanced the existing UI and added new frontend features to the UpInvest website.",
+      "Refactored components, fixed bugs, and improved responsiveness across devices.",
+      "Optimized user experience and integrated APIs where required."
+    ],
+    skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    role: "UpInvest Application",
+    period: "Web Application",
+    description: [
+      "Developed and modified frontend modules for the UpInvest web application.",
+      "Improved application UI, enhanced responsiveness, and resolved production issues.",
+      "Integrated REST APIs and improved the overall user experience."
+    ],
+    skills: ["React.js", "TypeScript", "Redux", "REST APIs", "Tailwind CSS"]
+  },
+  {
+    role: "Dawson Chamber (New York)",
+    period: "Law Firm Website",
+    description: [
+      "Developed the complete frontend for a New York law firm's website, building responsive pages from design.",
+      "Created reusable React components with a clean, polished UI implementation.",
+      "Optimized website performance with full mobile responsiveness and cross-browser compatibility."
+    ],
+    skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    role: "Code Intelique",
+    period: "Company Website",
+    description: [
+      "Developed the complete frontend for the company website with a modern UI implementation.",
+      "Built reusable UI components following clean code architecture.",
+      "Delivered responsive development, performance optimization, and API integration."
+    ],
+    skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS"]
   }
 ];
 
 export default function Projects() {
   return (
-    <main className="min-h-screen text-slate-200 px-6 py-24">
-      <div className="max-w-6xl mx-auto">
+    <main className="min-h-screen text-slate-200 py-24">
+      <div className="max-w-[1400px] mx-auto px-6">
         <h1 className="text-4xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-cyan-400 to-purple-600 mb-16 text-center animate-fade-in-up">
           My Projects & Experience
         </h1>

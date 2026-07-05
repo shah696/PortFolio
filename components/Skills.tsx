@@ -4,18 +4,24 @@ import React from "react";
 
 export default function Skills() {
   const frontend = [
-    "HTML", "CSS", "JavaScript", "React.js", "Bootstrap", "Tailwind CSS"
+    "React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3",
+    "Tailwind CSS", "Material UI", "Redux", "Redux Toolkit"
   ];
   const backend = [
-    "Node.js", "Express.js", "Next.js", "NestJS"
+    "Node.js", "Express.js", "MongoDB", "REST APIs"
   ];
-  const database = [
-    "MongoDB", "PostgreSQL", "Prisma ORM", "GraphQL"
+  const seo = [
+    "Technical SEO", "Sitemap Generation", "Robots.txt", "Metadata Optimization",
+    "Canonical Tags", "Page Indexing", "Google Search Console", "Performance Optimization"
+  ];
+  const tools = [
+    "Git", "GitHub", "VS Code", "Postman", "Figma",
+    "Antigravity", "Claude AI", "Gemini", "Cursor (Vibe Coding)"
   ];
 
   return (
-    <main className="min-h-screen text-slate-200 px-8 py-24">
-  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+    <main className="min-h-screen text-slate-200 py-24">
+  <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
     {/* Skills Section (Left) */}
     <div className="space-y-12 animate-fade-in-up">
       {/* Title */}
@@ -43,7 +49,7 @@ export default function Skills() {
       {/* Backend Skills */}
       <section>
         <h2 className="text-2xl font-bold text-purple-300 mb-6 flex items-center gap-2">
-           Backend Development
+           Backend Knowledge
         </h2>
         <div className="flex flex-wrap gap-4">
           {backend.map((skill, idx) => (
@@ -57,13 +63,30 @@ export default function Skills() {
         </div>
       </section>
 
-      {/* Database Skills */}
+      {/* SEO Skills */}
       <section>
         <h2 className="text-2xl font-bold text-blue-300 mb-6 flex items-center gap-2">
-           Database & Tools
+           SEO
         </h2>
         <div className="flex flex-wrap gap-4">
-          {database.map((skill, idx) => (
+          {seo.map((skill, idx) => (
+            <span
+              key={idx}
+              className="bg-slate-900/50 px-5 py-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.3)] transition-all duration-300 cursor-default"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </section>
+
+      {/* Tools */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-300 mb-6 flex items-center gap-2">
+           Tools
+        </h2>
+        <div className="flex flex-wrap gap-4">
+          {tools.map((skill, idx) => (
             <span
               key={idx}
               className="bg-slate-900/50 px-5 py-3 rounded-xl border border-slate-700 hover:border-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.3)] transition-all duration-300 cursor-default"

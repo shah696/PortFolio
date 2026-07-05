@@ -12,12 +12,12 @@ function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-white/10 shadow-lg transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-0">
+      <div className="max-w-[1400px] mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-0">
         {/* Left side  */}
         <div className="flex justify-center sm:justify-start items-center gap-3 cursor-pointer group">
-          <span className="text-2xl font-extrabold tracking-wide bg-clip-text text-transparent bg-linear-to-r from-cyan-400 to-purple-600 group-hover:from-purple-400 group-hover:to-cyan-600 transition-all duration-500">
-            Portfolio
-          </span>
+          <Link href="/" className="text-2xl font-extrabold tracking-wide bg-clip-text text-transparent bg-linear-to-r from-cyan-400 to-purple-600 group-hover:from-purple-400 group-hover:to-cyan-600 transition-all duration-500">
+            Shah Hussain
+          </Link>
         </div>
 
         {/* Navigation links */}
@@ -36,14 +36,13 @@ function Navbar() {
           </Link>
           <Link href="/resume" className={linkClasses("/resume")}>
             Resume
-          </Link><Link href="/hire-me" className={linkClasses("/hire-me")}>
-            hire-me
+          </Link>
+          <Link href="/hire-me" className={linkClasses("/hire-me")}>
+            Hire Me
           </Link>
           <Link href="/contact" className={linkClasses("/contact")}>
             Contact
           </Link>
-          
-           
         </nav>
       </div>
     </header>
